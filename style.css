@@ -1,8 +1,10 @@
 /* insert styles here */
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans&display=swap'); 
+
 body{
   margin: 0;
   font-size: 16px;
-  font-family: Arial;
+  font-family: Sofia Sans;
 }
 .nav{
 line-height: 38px;
@@ -33,5 +35,5 @@ color: white;
 text-align: center;
 line-height: 100px;
 height: 100px;
-
 }
+
