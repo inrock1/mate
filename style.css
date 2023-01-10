@@ -1,39 +1,47 @@
-/* insert styles here */
-@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans&display=swap'); 
 
-body{
-  margin: 0;
-  font-size: 16px;
-  font-family: Sofia Sans;
-}
-.nav{
-line-height: 38px;
-text-align: center;
-background-color: black;
-padding: 10px 0
+html {
+  font-size: 14px;
+  font-family: Roboto, Arial;
 }
 
+.nav {
+  background-color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 0.5em 0;
+}
 .link {
-color: white;
-text-decoration: none;
-padding: 0 20px;
-}
-h1{
-text-align: center;
-}
-p{
-text-align: justify;
-}
-.container{
-margin: auto;
-width: 500px;
-
-}
-.footer{
-background-color: dimgray;
-color: white;
-text-align: center;
-line-height: 100px;
-height: 100px;
+  text-decoration: none;
+  color: white;
+  padding: 0 1.5em;
 }
 
+.title {
+  text-align: center;
+  font-size: 2rem;
+  margin: 0.75em 0;
+}
+
+body {
+  font-size: 18px;
+  margin: 0;
+  font-family: Roboto, Arial, sans-serif;
+}
+
+
+.text {
+  text-align: justify;
+}
+
+.container {
+  width: 500px;
+  margin: 1.75rem auto;
+}
+
+.footer {
+  background-color: rgb(25%, 25%, 25%);
+  color: white;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+}
